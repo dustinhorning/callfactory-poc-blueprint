@@ -51,10 +51,6 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
-              <item link_title="" path_part="">
-                <title><![CDATA[Simple and at no extra charge]]></title>
-                <sort_order><![CDATA[1]]></sort_order>
-              </item>
             </items>
           </dataset>
         </ingredients>
