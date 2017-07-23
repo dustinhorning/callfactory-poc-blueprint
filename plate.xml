@@ -45,7 +45,7 @@
                   </item>
               </items>
           </pageset>
-          <dataset name="advantages" name_friendly="Advantages" parent_item="">
+          <dataset name="advantages" name_friendly="Advantages" parent_item="features_included">
             <fields>
                 <text name="title" name_friendly="Title" required="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
