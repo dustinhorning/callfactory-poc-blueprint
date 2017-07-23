@@ -44,8 +44,7 @@
                       <sort_order><![CDATA[2]]></sort_order>
                   </item>
               </items>
-          </pageset>
-          <dataset name="advantages" name_friendly="Advantages" parent_item="features_included">
+          </pageset><dataset name="advantages" name_friendly="Advantages" parent_item="">
             <fields>
                 <text name="title" name_friendly="Title" required="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
@@ -53,6 +52,30 @@
             <items>
               <item link_title="" path_part="">
                 <title><![CDATA[Simple and at no extra charge]]></title>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="examples" name_friendly="Examples" parent_item="">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[Group management]]></title>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="advantages_list_items" name_friendly="Advantages List Items" parent_item="">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[preempt disputes and misunderstandings]]></title>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
             </items>
