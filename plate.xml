@@ -22,6 +22,64 @@
                   </item>
               </items>
           </templateset>
-          
+          <!-- 2. Featured Included -->
+          <pageset name="features_included" name_friendly="Features Included" view="features_included" >
+              <fields>
+                  <text name="title" name_friendly="Title" required="1" />
+                  <textarea name="top_description" name_friendly="Top Description" />
+                  <images name="hero_image" name_friendly="Hero Image" limit="1" />
+                  <textarea name="sub_description" name_friendly="Sub Description" />
+                  <text name="green_title" name_friendly="Green Title" required="1" />
+                  <textarea name="green_description" name_friendly="Green Description" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
+              </fields>
+              <items>
+                  <item link_title="Call Queuing" path_part="call-queuing">
+                      <title><![CDATA[Call Queuing]]></title>
+                      <top_description><![CDATA[There will come a time when you have more callers than available call centre agents. Call queuing, a standard Call Factory subscription feature, lets you effortlessly deal with even the biggest peaks.]]></top_description>
+                      <hero_image><![CDATA[https://k5lq0g.media.zestyio.com/call-queueing.3b824725d9e59fe044acd168978f55bf.png]]></hero_image>
+                      <sub_description><![CDATA[Configure what your callers hear while waiting for an available agent. Record a custom promotional message, or choose for a musical interlude. Our IVR will connect callers to available agents in the order of their arrival.]]></sub_description>
+                      <green_title><![CDATA[Complete control]]></green_title>
+                      <green_description><![CDATA[Take control of your telephone communication. Receive all revent information on time and be empowered to act timely and relevant to change as they happen. Your Call Factory subscription gives you access to advanced features such as Call Filters, Real-time Statistics, the ability to change your Ring-to number and any other number settings, giving you full control over your telephonenumber.]]></green_description>
+                      <sort_order><![CDATA[2]]></sort_order>
+                  </item>
+              </items>
+          </pageset>
+          <dataset name="advantages" name_friendly="Advantages" parent_item="features_included">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[Simple and at no extra charge]]></title>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="examples" name_friendly="Examples" parent_item="features_included">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[Group management]]></title>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="advantages_list_items" name_friendly="Advantages List Items" parent_item="features_included">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[preempt disputes and misunderstandings]]></title>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
         </ingredients>
     </plate>
