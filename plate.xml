@@ -53,6 +53,16 @@
             </fields>
             <items>
               <item link_title="" path_part="">
+                <title><![CDATA[Discover Trends]]></title>
+                <image><![CDATA[https://k5lq0g.media.zestyio.com/Discover-Trends.f1cb27a519bdb5b6ed34049a5b86e317.png]]></image>
+                <overlay_title><![CDATA[Discover Trends]]></overlay_title>
+                <overlay_description><![CDATA[Analyse conversations based on their duration, the number of conversations or the busiest days. Based on these trends, you can adjust the size of your workforce without worries.]]></overlay_description>
+                <distance_from_the_top><![CDATA[185px]]></distance_from_the_top>
+                <distance_from_the_left><![CDATA[600px]]></distance_from_the_left>
+                <page><![CDATA[501]]></page>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+              <item link_title="" path_part="">
                 <title><![CDATA[Real-time Statistics]]></title>
                 <image><![CDATA[https://k5lq0g.media.zestyio.com/Real-Time-Statistics.f1cb27a519bdb5b6ed34049a5b86e317.png]]></image>
                 <overlay_title><![CDATA[Real-time Statistics]]></overlay_title>
