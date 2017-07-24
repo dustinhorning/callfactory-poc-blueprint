@@ -43,7 +43,7 @@
           <dataset name="examples" name_friendly="Examples" parent_item="">
             <fields>
                 <text name="title" name_friendly="Title" required="1"  list="1" />
-                  <images name="image" name_friendly="Image" limit="1"  list="1" />
+                  <images name="image" name_friendly="Image" limit="1" />
                   <text name="overlay_title" name_friendly="Overlay Title" />
                   <textarea name="overlay_description" name_friendly="Overlay Description" />
                   <text name="distance_from_the_top" name_friendly="Distance from Top" />
@@ -59,7 +59,7 @@
                 <overlay_description><![CDATA[The graphical display of statistics and the clear top 10-lists are constantly being updated. You can see what is happening in your department right now.]]></overlay_description>
                 <distance_from_the_top><![CDATA[185px]]></distance_from_the_top>
                 <distance_from_the_left><![CDATA[600px]]></distance_from_the_left>
-                <pages><![CDATA[507]]></pages>
+                <pages><![CDATA[501]]></pages>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
             </items>
@@ -83,7 +83,7 @@
               <fields>
                   <text name="title" name_friendly="Title" required="1" list="1"/>
                   <textarea name="top_description" name_friendly="Top Description" />
-                  <images name="hero_image" name_friendly="Hero Image" limit="1"  list="1" />
+                  <images name="hero_image" name_friendly="Hero Image" limit="1" />
                   <textarea name="sub_description" name_friendly="Sub Description" />
                   <text name="green_title" name_friendly="Green Title" required="1"  list="1" />
                   <textarea name="green_description" name_friendly="Green Description" />
