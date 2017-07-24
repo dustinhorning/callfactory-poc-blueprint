@@ -22,6 +22,24 @@
                   </item>
               </items>
           </templateset>
+          <dataset name="advantages" name_friendly="Advantages" parent_item="">
+            <fields>
+                <text name="title" name_friendly="Title" required="1" list="1" />
+                <wysiwyg_advanced name="description" name_friendly="Description" />
+                <one_to_many name="pages" name_friendly="Pages to show on" relationship="features_included" relationship_field="title" list="1" />
+                <one_to_many name="related_list_items" name_friendly="Related List Items" relationship="advantages_list_items" relationship_field="title" list="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item link_title="" path_part="">
+                <title><![CDATA[The Advantages]]></title>
+                <description><![CDATA[What would you prefer to hear when dialling a number; a friendly message or a busy tone? There is much to be said in favour of activating this free Call Factory feature for your Freephone or Premium rate number. Below, we list several advantages of Call queuing, for you and for your callers.]]></description>
+                <pages><![CDATA[507]]></pages>
+                <related_list_items><![CDATA[511]]></related_list_items>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
           <dataset name="examples" name_friendly="Examples" parent_item="">
             <fields>
                 <text name="title" name_friendly="Title" required="1"  list="1" />
