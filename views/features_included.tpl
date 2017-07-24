@@ -287,7 +287,7 @@
 						<div class="field-collection-container clearfix">
 							<div class="field field-name-field-body-block field-type-field-collection field-label-hidden">
 								<div class="field-items">
-									{{ each advantages as adv where find_in_set({page.zid}, adv.pages ) and parent = '' sort by adv.sort_order }}									
+									{{ each advantages as adv where find_in_set({page.zid}, adv.pages ) sort by adv.sort_order }}									
 									<div class="field-item even first">
 										<div class="field-collection-view clearfix view-mode-full">
 											<div class="entity entity-field-collection-item field-collection-item-field-body-block  clearfix bblock_1" about="https://www.callfactory.eu/field-collection/field-body-block/186" typeof="">
@@ -307,7 +307,7 @@
 																				
 																				<h3>{{ lists.title}}</h3>
 																				
-																				{{ lists.list_item }}
+																				{{ lists.description }}
 																			</li>
 																			{{ end-each }}
 																		</ul>
@@ -359,7 +359,7 @@
 			</div>
 			
 		</div>
-		{{ include snippet-footer }}
+		{{ include footer }}
 	</div>
 	
 	<script type="text/javascript" id="">
